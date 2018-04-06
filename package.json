@@ -1,0 +1,26 @@
+{
+  "id" : "netuitive.packages.total-cost",
+  "version" : "0.1.0",
+  "manifest" : {
+    "name" : "Netuitive Packages Total Cost",
+    "description" : "A set of assets to showcase total cost data captured by Metricly",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitive.com"
+    },
+    "distro" : {
+      "logo" : "http://assets.app.netuitive.com/pkg/logo/netuitive/banner_logo.png",
+      "download" : "https://github.com/netuitive-community-packages/netuitive-packages-total-cost/archive/master.zip"
+    },
+    "compatibility" : [],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "dashboards" : [ {
+    "data" : {
+      "file" : "dashboards/totalcost.summary.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ]
+}
