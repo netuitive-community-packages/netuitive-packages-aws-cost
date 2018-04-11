@@ -131,7 +131,8 @@
       "globalFilter": "false",
       "timeRangeDuration": "604800",
       "wrap": "true",
-      "gridstackContents": "[{\"id\":\"8a8f4fd4-0442-48ad-a0b0-bc2db1a6d413\",\"x\":0,\"y\":13,\"width\":6,\"height\":13},{\"id\":\"2db956e5-2541-430e-8ad3-c14fda8e82a6\",\"x\":0,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"577801de-c919-4c30-b1f1-cb31c18ba29a\",\"x\":6,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"f1e82cd0-a6b7-48ba-ad1f-b1b8cd149292\",\"x\":6,\"y\":13,\"width\":6,\"height\":13}]"
+      "gridstackContents": "[{\"id\":\"8a8f4fd4-0442-48ad-a0b0-bc2db1a6d413\",\"x\":0,\"y\":13,\"width\":6,\"height\":13},{\"id\":\"2db956e5-2541-430e-8ad3-c14fda8e82a6\",\"x\":0,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"577801de-c919-4c30-b1f1-cb31c18ba29a\",\"x\":6,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"f1e82cd0-a6b7-48ba-ad1f-b1b8cd149292\",\"x\":6,\"y\":13,\"width\":6,\"height\":13}]",
+      "costOnly": true
     },
     "type": "DEFAULT",
     "private": true
