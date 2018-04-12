@@ -1,6 +1,6 @@
 {
   "id" : "netuitive.packages.aws.cost",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "manifest" : {
     "name" : "Netuitive Packages Total Cost",
     "description" : "A set of assets to showcase total cost data captured by Metricly",
