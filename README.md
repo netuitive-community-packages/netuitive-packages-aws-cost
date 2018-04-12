@@ -1,4 +1,4 @@
-# netuitive.packages.total-cost
+# netuitive.packages.aws.cost
 
 ## Release History
 

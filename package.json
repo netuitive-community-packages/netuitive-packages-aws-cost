@@ -1,5 +1,5 @@
 {
-  "id" : "netuitive.packages.total-cost",
+  "id" : "netuitive.packages.aws.cost",
   "version" : "0.1.0",
   "manifest" : {
     "name" : "Netuitive Packages Total Cost",
