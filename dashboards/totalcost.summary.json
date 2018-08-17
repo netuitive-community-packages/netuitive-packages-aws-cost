@@ -1,140 +1,102 @@
 {
   "dashboard": {
-    "name": "AWS Total Cost",
-    "description": null,
-    "layout": null,
     "creatorEmail": "research@netuitive.com",
-    "widgets": [
-      {
-        "id": "8a8f4fd4-0442-48ad-a0b0-bc2db1a6d413",
-        "name": "Top 5 Cost by Services",
-        "description": null,
-        "widgetType": "cost-explorer",
-        "properties": {
-          "visualization": "service total",
-          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
-          "colorByMetric": "false",
-          "showElementTotal": "true",
-          "elementScopeTags": "[]",
-          "useAllElementScopeTags": "true",
-          "elementScopeTypes": "[]",
-          "metricLimit": "10",
-          "showBands": "true",
-          "grouping": "attribute=SERVICE",
-          "useAllMetricScopeTags": "true",
-          "metricAggs": "[]",
-          "elementScopeIds": "[]",
-          "elementScopeAttributes": "[]",
-          "showHighest": "true",
-          "metricScopeTags": "[]",
-          "useAllElementScopeAttributes": "true",
-          "metricAgg": "avg",
-          "metrics": "[]",
-          "topNLimit": "5",
-          "elementScopeExcludedTags": "[]"
-        },
-        "generated": false
-      },
-      {
-        "id": "2db956e5-2541-430e-8ad3-c14fda8e82a6",
-        "name": "Total Cost By Service",
-        "description": null,
-        "widgetType": "cost-explorer",
-        "properties": {
-          "visualization": "doughnut",
-          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
-          "colorByMetric": "false",
-          "showElementTotal": "true",
-          "elementScopeTags": "[]",
-          "useAllElementScopeTags": "true",
-          "elementScopeTypes": "[]",
-          "metricLimit": "10",
-          "showBands": "true",
-          "grouping": "attribute=SERVICE",
-          "useAllMetricScopeTags": "true",
-          "metricAggs": "[]",
-          "elementScopeIds": "[]",
-          "elementScopeAttributes": "[]",
-          "showHighest": "true",
-          "metricScopeTags": "[]",
-          "useAllElementScopeAttributes": "true",
-          "metricAgg": "avg",
-          "metrics": "[]",
-          "topNLimit": "5",
-          "elementScopeExcludedTags": "[]"
-        },
-        "generated": false
-      },
-      {
-        "id": "577801de-c919-4c30-b1f1-cb31c18ba29a",
-        "name": "Cost Period Comparison",
-        "description": null,
-        "widgetType": "cost-explorer",
-        "properties": {
-          "visualization": "period comparison",
-          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
-          "colorByMetric": "false",
-          "showElementTotal": "true",
-          "elementScopeTags": "[]",
-          "useAllElementScopeTags": "true",
-          "elementScopeTypes": "[]",
-          "metricLimit": "10",
-          "showBands": "true",
-          "grouping": "attribute=SERVICE",
-          "useAllMetricScopeTags": "true",
-          "metricAggs": "[]",
-          "elementScopeIds": "[]",
-          "elementScopeAttributes": "[]",
-          "showHighest": "true",
-          "metricScopeTags": "[]",
-          "useAllElementScopeAttributes": "true",
-          "metricAgg": "avg",
-          "metrics": "[]",
-          "topNLimit": "5",
-          "elementScopeExcludedTags": "[]"
-        },
-        "generated": false
-      },
-      {
-        "id": "f1e82cd0-a6b7-48ba-ad1f-b1b8cd149292",
-        "name": "Cost By Availability Zone",
-        "description": null,
-        "widgetType": "cost-explorer",
-        "properties": {
-          "visualization": "service total",
-          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
-          "colorByMetric": "false",
-          "showElementTotal": "true",
-          "elementScopeTags": "[]",
-          "useAllElementScopeTags": "true",
-          "elementScopeTypes": "[]",
-          "metricLimit": "10",
-          "showBands": "true",
-          "grouping": "attribute=AZ",
-          "useAllMetricScopeTags": "true",
-          "metricAggs": "[]",
-          "elementScopeIds": "[]",
-          "elementScopeAttributes": "[]",
-          "showHighest": "true",
-          "metricScopeTags": "[]",
-          "useAllElementScopeAttributes": "true",
-          "metricAgg": "avg",
-          "metrics": "[]",
-          "topNLimit": "5",
-          "elementScopeExcludedTags": "[]"
-        },
-        "generated": false
-      }
-    ],
+    "name": "AWS Total Cost",
+    "private": true,
     "properties": {
-      "refreshIntervalSeconds": "300",
+      "costOnly": true,
       "globalFilter": "false",
-      "timeRangeDuration": "604800",
-      "wrap": "true",
       "gridstackContents": "[{\"id\":\"8a8f4fd4-0442-48ad-a0b0-bc2db1a6d413\",\"x\":0,\"y\":13,\"width\":6,\"height\":13},{\"id\":\"2db956e5-2541-430e-8ad3-c14fda8e82a6\",\"x\":0,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"577801de-c919-4c30-b1f1-cb31c18ba29a\",\"x\":6,\"y\":0,\"width\":6,\"height\":13},{\"id\":\"f1e82cd0-a6b7-48ba-ad1f-b1b8cd149292\",\"x\":6,\"y\":13,\"width\":6,\"height\":13}]",
-      "costOnly": true
+      "refreshIntervalSeconds": "300",
+      "timeRangeDuration": "604800",
+      "wrap": "true"
     },
     "type": "DEFAULT",
-    "private": true
+    "widgets": [
+      {
+        "generated": false,
+        "id": "8a8f4fd4-0442-48ad-a0b0-bc2db1a6d413",
+        "name": "Top 5 Cost by Services",
+        "properties": {
+          "colorByMetric": "false",
+          "grouping": "attribute=SERVICE",
+          "metricAgg": "avg",
+          "metricLimit": "10",
+          "showBands": "true",
+          "showElementTotal": "true",
+          "showHighest": "true",
+          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
+          "topNLimit": "5",
+          "useAllElementScopeAttributes": "true",
+          "useAllElementScopeTags": "true",
+          "useAllMetricScopeTags": "true",
+          "visualization": "service total"
+        },
+        "widgetType": "cost-explorer"
+      },
+      {
+        "generated": false,
+        "id": "2db956e5-2541-430e-8ad3-c14fda8e82a6",
+        "name": "Total Cost By Service",
+        "properties": {
+          "colorByMetric": "false",
+          "grouping": "attribute=SERVICE",
+          "metricAgg": "avg",
+          "metricLimit": "10",
+          "showBands": "true",
+          "showElementTotal": "true",
+          "showHighest": "true",
+          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
+          "topNLimit": "5",
+          "useAllElementScopeAttributes": "true",
+          "useAllElementScopeTags": "true",
+          "useAllMetricScopeTags": "true",
+          "visualization": "doughnut"
+        },
+        "widgetType": "cost-explorer"
+      },
+      {
+        "generated": false,
+        "id": "577801de-c919-4c30-b1f1-cb31c18ba29a",
+        "name": "Cost Period Comparison",
+        "properties": {
+          "colorByMetric": "false",
+          "grouping": "attribute=SERVICE",
+          "metricAgg": "avg",
+          "metricLimit": "10",
+          "showBands": "true",
+          "showElementTotal": "true",
+          "showHighest": "true",
+          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
+          "topNLimit": "5",
+          "useAllElementScopeAttributes": "true",
+          "useAllElementScopeTags": "true",
+          "useAllMetricScopeTags": "true",
+          "visualization": "period comparison"
+        },
+        "widgetType": "cost-explorer"
+      },
+      {
+        "generated": false,
+        "id": "f1e82cd0-a6b7-48ba-ad1f-b1b8cd149292",
+        "name": "Cost By Availability Zone",
+        "properties": {
+          "colorByMetric": "false",
+          "grouping": "attribute=AZ",
+          "metricAgg": "avg",
+          "metricLimit": "10",
+          "showBands": "true",
+          "showElementTotal": "true",
+          "showHighest": "true",
+          "tableColumns": "[{\"columnType\":\"elementType\",\"width\":\"10%\"},{\"columnType\":\"elementName\",\"width\":\"80%\"},{\"columnType\":\"metric\",\"width\":\"10%\",\"metricDisplayName\":null,\"metricFqn\":null,\"metricAggFn\":null,\"metricAgg\":null,\"metricUnit\":null}]",
+          "topNLimit": "5",
+          "useAllElementScopeAttributes": "true",
+          "useAllElementScopeTags": "true",
+          "useAllMetricScopeTags": "true",
+          "visualization": "service total"
+        },
+        "widgetType": "cost-explorer"
+      }
+    ]
   }
 }
